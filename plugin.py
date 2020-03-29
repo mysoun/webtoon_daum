@@ -35,7 +35,7 @@ from .logic_normal import LogicNormal
 blueprint = Blueprint(package_name, package_name, url_prefix='/%s' %  package_name, template_folder=os.path.join(os.path.dirname(__file__), 'templates'))
 
 menu = {
-    'main' : [package_name, '네이버 웹툰 다운로드'],
+    'main' : [package_name, '다음 웹툰 다운로드'],
     'sub' : [
         ['setting', '설정'], ['request', '요청'], ['queue', '큐'], ['list', '목록'], ['log', '로그']
     ],
@@ -44,11 +44,11 @@ menu = {
 
 plugin_info = {
     'version' : '0.1.0.0',
-    'name' : 'naver_webtoon',
+    'name' : 'daum_webtoon',
     'category_name' : 'service',
-    'developer' : 'soju6jan',
-    'description' : '네이버 웹툰 다운로드',
-    'home' : 'https://github.com/soju6jan/naver_webtoon',
+    'developer' : 'jackie',
+    'description' : '다음 웹툰 다운로드',
+    'home' : 'https://github.com/mysoun/daum_webtoon',
     'more' : '',
 }
 
